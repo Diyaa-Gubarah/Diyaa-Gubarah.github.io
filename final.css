@@ -1,0 +1,84 @@
+/* @media form [0 px] To [540 px] */
+
+@media screen and (max-width: 540px) {
+	/* The Projects Cards Container*/
+	.project-cards-container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	/* The Project Cards */
+	.project-card {
+		width: 70%;
+		height: 70%;
+		margin: 8px;
+		background: linear-gradient(to left, #ac39ac, #cc66cc, #d98cd9);
+	}
+	/* The Project Link */
+	.project-link {
+		padding-top: 12px;
+	}
+	/* The Footer */
+	footer {
+		display: none;
+	}
+	/* The Side navigation Hoverable */
+	.hoverableSidenav {
+		display: none;
+	}
+	/* The Side Navigation*/
+	.sidenav {
+		display: none;
+	}
+}
+
+/* @media form [540 px] To [730 px] */
+
+@media screen and (min-width: 540px) and (max-width: 730px) {
+	/* The Side navigation Hoverable */
+	.hoverableSidenav {
+		display: none;
+	}
+	/* The Side Navigation*/
+	.sidenav {
+		display: none;
+	}
+}
+
+/* @media form [730 px] To [949 px] */
+
+@media screen and (min-width: 730px) and (max-width: 949px) {
+	header {
+		width: 100%;
+	}
+	main {
+		margin-left: 95px;
+		/* Same as the width of the sidebar */
+	}
+	/* The sidebar menu */
+	.sidenav {
+		display: none;
+	}
+}
+
+/* @media more than 950 px */
+
+@media screen and (min-width: 950px) {
+	body {
+		margin-left: 32px;
+		margin-right: 32px;
+	}
+	/* Style page content */
+	main {
+		margin-left: 260px;
+		/* Same as the width of the sidebar */
+	}
+	/* The sidebar menu */
+	.hoverableSidenav {
+		display: none;
+	}
+	/* Footer */
+	footer {
+		display: none;
+	}
+}
